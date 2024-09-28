@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F50F2085"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FirstLoginwithPin">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:id="@+id/backarrow"
+            android:layout_height="55dp"
+            android:onClick="goToHomeFromOTP"
+            android:padding="5dp"
+            app:tint="@color/white"
+            android:src="@drawable/backspace_24"
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="19dp"
+                android:fontFamily="sans-serif"
+                android:includeFontPadding="false"
+                android:text="Enter 4 Digit Pin Number"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@color/profileAccentColor"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
+                android:visibility="invisible"
+                android:fontFamily="sans-serif"
+                android:includeFontPadding="false"
+                android:text="You have Alredy 4 Digit Pin Exit "
+                android:textAlignment="center"
+                android:textColor="@color/lightcolor"
+                android:textSize="20sp" />
+
+            <com.chaos.view.PinView
+                android:id="@+id/pin_view"
+                style="@style/PinWidget.PinView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
+                android:cursorVisible="true"
+                android:inputType="number"
+                android:itemBackground="#FAF4F0F0"
+                app:cursorColor="@color/black"
+                app:hideLineWhenFilled="true"
+                app:itemCount="4"
+                app:itemHeight="50dp"
+                app:itemRadius="5dp"
+                app:itemWidth="50dp"
+                app:lineWidth="1dp" />
+            <TextView
+                android:id="@+id/forgetpin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif"
+                android:includeFontPadding="false"
+                android:text="Forgot Pin ?"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/verify_number"
+                android:layout_width="match_parent"
+                android:background="@drawable/oval_button"
+                android:layout_height="55dp"
+                android:layout_marginTop="24dp"
+                android:text="Verify"
+                app:backgroundTint="@color/green"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/white"
+                android:transitionName="transition_OTP_screen" />
+    </LinearLayout>
+
+
+
+</ScrollView>

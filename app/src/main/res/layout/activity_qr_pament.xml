@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Upipayment.QrPament">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="96dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginStart="29dp"
+                android:padding="5dp"
+                android:src="@drawable/backspace_24"
+                app:tint="@color/black" />
+
+
+            <RelativeLayout
+                android:id="@+id/upipic"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="top"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="140dp"
+                android:gravity="center">
+
+
+                <ImageView
+                    android:id="@+id/upiicon"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/upi" />
+
+            </RelativeLayout>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/upipic"
+                app:cardBackgroundColor="#F50F2085"
+                app:cardCornerRadius="22dp"
+                android:layout_height="650dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/card"
+                    android:layout_height="match_parent"
+                    android:padding="20dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/enteramounts"
+                        android:layout_marginTop="50dp">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:src="@drawable/paying"
+                            app:tint="@color/white"
+                            android:layout_marginStart="12dp"
+                            android:id="@+id/sks"
+                            android:layout_height="32dp"/>
+
+                        <com.rk.libcurrencyview.CurrencyEditText
+                            android:id="@+id/enteramount"
+                            android:layout_width="match_parent"
+                            android:layout_height="42dp"
+                            android:layout_toEndOf="@+id/sks"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="15dp"
+                            android:background="@drawable/bkg"
+                            android:gravity="center"
+                            android:hint="Enter Amount"
+                            android:inputType="number"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="18dp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/entername"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/enteramounts"
+                        android:layout_marginTop="20dp">
+
+                        <ImageView
+                            android:id="@+id/imagename"
+                            android:layout_width="35dp"
+                            android:layout_height="32dp"
+                            android:layout_marginStart="12dp"
+                            android:src="@drawable/person_id"
+                            app:ccp_textSize="18sp"
+                            app:tint="@color/white" />
+
+                        <EditText
+                            android:id="@+id/enter_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="42dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_toEndOf="@+id/imagename"
+                            android:background="@drawable/bkg"
+                            android:fontFamily="sans-serif-medium"
+                            android:hint="Beneficiary Name"
+                            android:inputType="text"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="18sp" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/upiid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/entername"
+                        android:layout_marginTop="20dp">
+
+                        <ImageView
+                            android:id="@+id/countryCodeHolders"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="12dp"
+                            android:src="@drawable/upiindia"
+                            app:ccp_autoDetectCountry="false"
+                            app:ccp_textSize="18sp"
+                            app:tint="@color/white" />
+
+                        <TextView
+                            android:id="@+id/upiidedit"
+                            android:layout_width="match_parent"
+                            android:layout_height="42dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="15dp"
+                            android:layout_toEndOf="@+id/countryCodeHolders"
+                            android:background="@drawable/bkg"
+                            android:fontFamily="sans-serif-medium"
+                            android:hint="Upi Id "
+                            android:gravity="center"
+                            android:inputType="text"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="18sp" />
+
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/loginContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/upiid"
+                        android:layout_marginTop="30dp"
+                        android:visibility="gone">
+
+                        <com.hbb20.CountryCodePicker
+                            android:id="@+id/countryCodeHolder"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            app:ccp_autoDetectCountry="false"
+                            app:ccp_contentColor="@color/white"
+                            app:ccp_textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/editcontact"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toEndOf="@+id/countryCodeHolder"
+                            android:fontFamily="sans-serif-medium"
+                            android:hint="Phone Number*"
+                            android:inputType="phone"
+                            android:maxLength="10"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="18sp" />
+
+
+                    </RelativeLayout>
+
+                    <EditText
+                        android:id="@+id/note"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_below="@+id/upiid"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginTop="32dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@drawable/rectangle_shape"
+                        android:gravity="top"
+                        android:hint="Description"
+                        android:maxLength="45"
+                        android:paddingStart="12dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="15dp" />
+
+
+                    <Button
+                        android:id="@+id/upipayment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/note"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="36dp"
+                        android:layout_marginEnd="32dp"
+                        android:backgroundTint="#8BC34A"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="Send"
+                        android:textAllCaps="false"
+                        android:textColor="#FFF"
+                        android:textSize="18sp" />
+
+                    <ProgressBar
+                        android:id="@+id/idPBLoading"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/upipayment"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="192dp"
+                        android:layout_marginTop="259dp"
+                        android:layout_marginEnd="171dp"
+                        android:layout_marginBottom="227dp"
+                        android:visibility="gone" />
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+    </ScrollView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        app:itemBackground="@color/lightgrey"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menu_navigation" />
+</RelativeLayout>

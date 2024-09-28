@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PrivacyPolicy">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Digitalfintechcustomer.AppBarOverlay">
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:onClick="goToHomeFromSetNewPassword"
+                android:padding="5dp"
+                android:src="@drawable/backspace_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imageView2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:tint="@color/black" />
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:paddingLeft="20dp"
+                android:layout_marginStart="69dp"
+                android:layout_weight="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:src="@drawable/privacy" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:layout_height="wrap_content"
+                android:text="Privacy Policy"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/relative"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:id="@+id/intro"
+                android:paddingLeft="12dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="1. INTRODUCTION"
+                />
+            <TextView
+                android:id="@+id/introduc"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAlignment="textStart"
+                android:fontFamily="sans-serif-medium"
+                android:textDirection="firstStrongLtr"
+                android:paddingLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#C4131313"
+                android:layout_below="@+id/intro"
+                android:text="@string/text1"
+                />
+            <TextView
+                android:id="@+id/userid"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:paddingLeft="12dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/introduc"
+                android:text="2. User ID, Password and Registration"
+                />
+            <TextView
+                android:id="@+id/userids"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAlignment="textStart"
+                android:fontFamily="sans-serif-medium"
+                android:textDirection="firstStrongLtr"
+                android:paddingLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#C4131313"
+                android:layout_below="@+id/userid"
+                android:text="@string/text2"
+                />
+            <TextView
+                android:id="@+id/informa"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:paddingLeft="12dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/userids"
+                android:text="3. INFORMATION THAT WE COLLECT AND THAT YOU PROVIDE"
+                />
+
+            <TextView
+                android:id="@+id/person"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:paddingLeft="12dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/userids"
+                android:text="3. INFORMATION THAT WE COLLECT AND THAT YOU PROVIDE"
+                />
+            <TextView
+                android:id="@+id/infor"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:paddingLeft="12dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/person"
+                android:text="4. PERSONAL INFORMATION"
+                />
+            <TextView
+                android:id="@+id/personal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAlignment="textStart"
+                android:fontFamily="sans-serif-medium"
+                android:textDirection="firstStrongLtr"
+                android:paddingLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#C4131313"
+                android:layout_below="@+id/infor"
+                android:text="@string/text3"
+                />
+
+            <TextView
+                android:id="@+id/userpersonal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:paddingLeft="12dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/person"
+                android:text="4. PERSONAL INFORMATION"
+                />
+
+            <TextView
+                android:id="@+id/infocollected"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:paddingLeft="12dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/personal"
+                android:text="5. INFORMATION COLLECTED BY MERCHANTS"
+                />
+
+            <TextView
+                android:id="@+id/infomerc"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAlignment="textStart"
+                android:fontFamily="sans-serif-medium"
+                android:textDirection="firstStrongLtr"
+                android:paddingLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#C4131313"
+                android:layout_below="@+id/infocollected"
+                android:text="@string/text4" />
+
+            <TextView
+                android:id="@+id/persinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:paddingLeft="12dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/infomerc"
+                android:text="6. USE OF PERSONAL INFORMATION"
+                />
+
+            <TextView
+                android:id="@+id/persinfomation"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAlignment="textStart"
+                android:fontFamily="sans-serif-medium"
+                android:textDirection="firstStrongLtr"
+                android:paddingLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#C4131313"
+                android:layout_below="@+id/persinfo"
+                android:text="@string/text5" />
+            />
+
+            <TextView
+                android:id="@+id/priva"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:paddingLeft="12dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/persinfomation"
+                android:text="7.UPDATES TO PRIVACY POLICY"
+                />
+
+            <TextView
+                android:id="@+id/privacypol"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAlignment="textStart"
+                android:fontFamily="sans-serif-medium"
+                android:textDirection="firstStrongLtr"
+                android:paddingLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#C4131313"
+                android:layout_below="@+id/priva"
+                android:text="@string/text6" />
+            />
+            <TextView
+                android:id="@+id/refund"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:paddingLeft="12dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/privacypol"
+                android:text="8.REFUND POLICY"
+                />
+
+            <TextView
+                android:id="@+id/refundpo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAlignment="textStart"
+                android:fontFamily="sans-serif-medium"
+                android:textDirection="firstStrongLtr"
+                android:paddingLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#C4131313"
+                android:layout_below="@+id/refund"
+                android:text="@string/text7"
+                />
+            <TextView
+                android:id="@+id/other"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:paddingLeft="12dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/refundpo"
+                android:text="9.OTHER INFORMATION
+"
+                />
+            <TextView
+                android:id="@+id/otherinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAlignment="textStart"
+                android:fontFamily="sans-serif-medium"
+                android:textDirection="firstStrongLtr"
+                android:paddingLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#C4131313"
+                android:layout_below="@+id/other"
+                android:text="@string/text8"
+                />
+            <TextView
+                android:id="@+id/gap"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:visibility="invisible"
+                android:paddingLeft="12dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/otherinfo"
+                android:text="9.OTHER INFORMATION\n today
+"
+                />
+
+            <TextView
+                android:id="@+id/gaps"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:visibility="invisible"
+                android:paddingLeft="12dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/gap"
+                android:text="9.OTHER INFORMATION\n today
+"
+                />
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="bottom|center"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="-60dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:itemBackground="@color/lightgrey"
+            app:itemIconTint="@drawable/selector"
+            app:itemTextColor="@drawable/selector"
+            app:menu="@menu/menu_navigation" />
+
+    </LinearLayout>
+
+</LinearLayout>

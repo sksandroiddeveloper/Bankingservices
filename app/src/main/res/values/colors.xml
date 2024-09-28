@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#4CAF50</color>
+    <color name="blue">#3F51B5</color>
+    <color name="grey">#7D7F81</color>
+    <color name="lightcolor">#D7F1E0E0</color>//  app:boxBackgroundColor="#D7DDDCDC"
+    <color name="lightgrey">#D7DDDCDC</color>
+    <color name="darkblue">#CB0A1E93</color>
+    <color name="profileAccentColor">#F7F7F7</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="profileBackground">#fff</color>
+    <color name="blackTextColor">#000</color>
+    <color name="profileEditTextColor">#707070</color>
+    <color name="profilePrimaryDark">#FF3B30</color>
+    <color name="disabled_background_color">#10181818</color>
+    <color name="disabled_text_color">#aaa</color>
+    <color name="toastcolor">#DAAA</color>
+    <color name="Red">#FF3B30</color>
+    <color name="lightblue">#00000000</color>
+
+
+
+</resources>

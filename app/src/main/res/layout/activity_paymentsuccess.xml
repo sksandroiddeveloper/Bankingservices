@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Upipayment.Paymentsuccess">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/paymentsu"
+            android:layout_width="match_parent"
+            android:layout_height="318dp"
+            android:background="#fff"
+            android:src="@drawable/paymnetsucc" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/refernceid"
+            android:textStyle="bold"
+            android:layout_below="@+id/paymentsu"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="-1dp"
+            android:gravity="center"
+            android:text="Payment Done"
+            android:textColor="@color/black"
+            android:textSize="29dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ref"
+            android:layout_below="@+id/refernceid"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="-1dp"
+            android:gravity="center"
+            android:text="Payment Done"
+            android:textColor="@color/black"
+            android:textSize="19dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:layout_below="@+id/ref"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="-1dp"
+            android:gravity="center"
+            android:text="Payment Done"
+            android:textColor="@color/black"
+            android:textSize="19dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/utrno"
+            android:layout_below="@+id/name"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="-1dp"
+            android:gravity="center"
+            android:text="Payment Done"
+            android:textColor="@color/black"
+            android:textSize="19dp" />
+
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="174dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/utrno"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="69dp"
+            android:layout_marginEnd="117dp"
+            android:backgroundTint="@color/green"
+            android:gravity="center"
+            android:text="OK" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

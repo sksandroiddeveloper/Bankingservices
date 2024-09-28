@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#988C90"
+
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/suc"
+            android:layout_width="51dp"
+            android:layout_height="54dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            app:tint="@color/green"
+            android:visibility="invisible"
+            android:tintMode="src_in"
+            android:src="@drawable/succcess"
+            android:layout_marginTop="10dp"
+            />
+        <ImageView
+            android:id="@+id/fail"
+            android:layout_width="51dp"
+            android:layout_height="54dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            app:tint="@color/profilePrimaryDark"
+            android:tintMode="src_in"
+            android:visibility="invisible"
+            android:src="@drawable/failure"
+            android:layout_marginTop="10dp"
+            />
+        <ImageView
+            android:id="@+id/pend"
+            android:layout_width="51dp"
+            android:layout_height="54dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            app:tint="#FDD835"
+            android:visibility="invisible"
+            android:tintMode="src_in"
+            android:src="@drawable/pending"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <TextView
+            android:id="@+id/rec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="150dp"
+            android:text="Purpose"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rec"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="150dp"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/times"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:layout_below="@+id/name"
+            android:gravity="left"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="3dp"
+            android:text="Date"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/black"
+            android:layout_marginEnd="30dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/type"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/amount"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginBottom="25dp"
+            android:text="Type" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#988C90"
+        android:layout_marginTop="7dp"
+        />
+
+</LinearLayout>

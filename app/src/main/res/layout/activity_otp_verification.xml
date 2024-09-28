@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    tools:context=".Otp_verification">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif"
+                android:includeFontPadding="false"
+                android:text="Verify OTP"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:fontFamily="sans-serif"
+                android:includeFontPadding="false"
+                android:text="Code is sent to registered Mobile-Number "
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp">
+
+                <com.chaos.view.PinView
+                    android:id="@+id/pin_view"
+                    style="@style/PinWidget.PinView"
+                    android:layout_width="230dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:cursorVisible="true"
+                    android:inputType="number"
+                    android:itemBackground="#1E988787"
+                    app:cursorColor="@color/black"
+                    app:hideLineWhenFilled="true"
+                    app:itemCount="6"
+                    app:itemHeight="40dp"
+                    app:itemRadius="1dp"
+                    app:itemWidth="30dp"
+                    app:lineWidth="2dp" />
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
+                android:fontFamily="sans-serif"
+                android:includeFontPadding="false"
+                android:text="Didn't receive the code? Request Again"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/click"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rectangle_shape"
+                android:fontFamily="sans-serif"
+                android:includeFontPadding="false"
+                android:text="Click It"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/verify_number"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/oval_button"
+                android:fontFamily="sans-serif"
+                android:text="Verify"
+                android:textColor="@color/white"
+                android:transitionName="transition_OTP_screen"
+                app:backgroundTint="@color/green" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Qrcoder.QrcodeGenerator">
+    <ImageView
+        android:id="@+id/imageback"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:padding="5dp"
+        android:src="@drawable/backspace_24"
+        app:tint="@color/black" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:hint="Set Black Color"
+        android:text="#000000"
+        android:visibility="gone"
+        android:id="@+id/preview_selected_firstcolor"
+        android:minHeight="48dp"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:hint="Set White Color"
+        android:text="#ffffff"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:id="@+id/preview_selected_secondcolor"
+        android:minHeight="48dp"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="Accepted Here"
+        android:textColor="@color/black"
+        android:textAllCaps="true"
+        tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+    <TextView
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/topay"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="To pay"
+        tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Scan this QR Code"
+        tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/qr_image"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/scan_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="scan"
+        tools:ignore="HardcodedText,UsingOnClickInXml" />
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/image"
+        android:src="@drawable/payment"
+        android:layout_gravity="bottom|center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name" />
+</LinearLayout>
+</LinearLayout>

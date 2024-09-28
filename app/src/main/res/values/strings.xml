@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Go Payment Cash</string>
+    <string name="title_activity_navigationslider">Navigationslider</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home"></string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="change_pass">Update Pin</string>
+    <string name="privacy">Privacy</string>
+    <string name="contact">Contact Us</string>
+    <string name="about">About Us</string>
+    <string name="share">Share</string>
+    <string name="logout">Logout</string>
+    <string name="new_credentials_detail">Your identity has been verfied !\n Set your new password </string>
+    <string name="new_cred">Your identity has been verfied !\n Set your new PIN </string>
+    <string name="forgetpass">Enter Your Register Mobile Number Account</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="text1">"Whenever you visit a website and/or browse through any web sites, you may be providing certain personal/confidential information about yourself to the site's owner. We at GO Cash respect your privacy and value your trust and therefore, hereby assure you that all efforts shall be taken to protect your privacy and the personal information shared with us. "</string>
+    <string name="text2">User ID and Password has a unique way to provide security to the data submitted as it restricts the use of your account to yourself. Your E-mail ID shall be your login ID to identify your account and also for all your transactions and account related activity on this website. Each user should have a unique login ID which shall be utilized to access the account. We encourage you to choose a strong password to protect your account. It is advised that you do not share your password with anyone or write it down. Make sure that you sign out from the computer. GO Cash never, under any circumstances, asks for your account password except for logging in to the account. As a user of this site, you agree that the information provided by you to GO Cash on registration and at all other times, including payment, will be true, accurate, current, and complete. You also agree and accept to ensure that this information is kept accurate and up-to-date at all times. If you have a reason to believe that your account is no longer secure (e.g., in the event of a loss, theft or unauthorized disclosure or use of your account id, pin, password, or any credit, debit or prepaid cash card number or net banking login/ password, if applicable), then you agree to immediately notify GO Cash and indemnify GO Cash from any of the liabilities that may arise from the misuse of your account.</string>
+    <string name="text3">Personal Information means and includes all information that can be linked to a specific individual or to identify any individual, such as: Your full name, address, e-mail address, mobile number, date of birth and bank or payment card details and any proof of Your identity and/or address that we may request Details of any transactions that You carry out through our Website or application using Your GO Cash account and of the fulfilment of Your requests Details of any credit, debit or other card used by You for transactions Details of any bank account (including but not limited to, account holder, account name, account number, sort code, online banking PIN, Transaction Authentication Number \"TAN\" and password, available balance and transaction history of Your bank account), ITR, TAX certificates or any other income documents as necessary by Us Any correspondence sent by You to Us  Survey that You complete through the Website or based on our request  Your participation in any promotion sponsored by Us Calls that we make to You or You make to Us Information collected through Cookies Your IP address, log-in times, operating system and browser type Details of Your visits to our Website/ mobile application including, but not limited to, Traffic Data, location data, weblogs and other communication data, whether this is required for Our own billing purposes or otherwise and the resources that You access whilst visiting Our Website or mobile application.</string>
+    <string name="text4">"GO Cash shall engage independent merchants to provide certain services and products related to our Website. Access to any of Your Personal Information by these merchants is limited to the information reasonably necessary in order for the merchants to perform their limited services for Us. We also insist that these merchants protect Your Personal Information in a manner consistent with this Privacy Policy and that the merchants shall not use or disclose Your personal information for any purpose other than providing Us with the products or services for which We have contracted. We will not sell, distribute or lease Your Personal Information to merchants unless:  Required by law such as to comply with a subpoena or similar legal process. To the extent We are legally permitted to do so, We will take commercially reasonable steps to notify You in the event that We are required to provide Your personal information to Merchants as part of the legal process When We believe in good faith that disclosure is necessary to protect Our rights, protect Your safety or the safety of others, investigate fraud or respond to a written government request. If GO Cash becomes involved in a merger, acquisition, or any form of sale of some or all of its assets, We will provide notice before personally identifying information becomes subject to a different privacy statement To any other Merchant with Your prior consent to do so. "</string>
+    <string name="text5"><![CDATA[We use personal information to provide You with services & products You explicitly requested, like the following: To carry out Your instructions for making and receiving payments and undertake transactions using Our services, including verifying that You have sufficient funds in Your GO Cash to make such payments To operate and administer Your GO Cash for providing services that You have requested To notify You about changes to Our service(s) To comply with financial services regulations including retention of financial information and transactions For customer service, including answering questions and responding to feedback and complaints To provide You with information, products or services that You request from Us or which We feel may interest You. To allow You to participate in interactive features of the website or mobile application To improve Our internal customer training For financial and identity checks, fraud prevention checks, anti-money laundering and credit checks To enhance the security of Our services To send You offers based on Your previous orders and interests To complete optional online surveys which may ask You for contact information and demographic information (like zip code, age, gender). CONSEQUENCES OF NOT PROVIDING PERSONAL INFORMATION If You choose not to provide Your Personal Information that is mandatory to process Your request, GO Cash may not be able to provide the corresponding services.]]></string>
+    <string name="text6">Our Privacy Policy may change at any time without prior notification. To make sure that You are aware of any changes, kindly review the policy periodically. This Privacy Policy shall apply uniformly to GO Cash\'s desktop website.</string>
+    <string name="text7">"All sales of service are final and there will be no refund or exchange permitted. Please be advised that You are responsible for the Recharge and all charges that result from those purchases. GO Cash is not responsible for any purchase of Recharge for an incorrect account number. However, in a case where a transaction has been completed by you on the Site, and money has been charged to your card or bank account but a Services has not delivered within 24 hours of your completion of the transaction then you may inform us by sending us an email on (email ID mentioned) or posting us a message. In such a scenario you will be entitled to a full refund. We request you to include in the email the following details - Transaction value, Transaction date and Order Number ( ) shall investigate the incident and if it is found that money was indeed charged to your card or bank account without delivery of service then you will be refunded the money within 7 working days from the date of the receipt of your email. "</string>
+    <string name="text8">If You would like to view the information We have collected from You or You want to correct Your information, please go to Our Login page and log in to Your account to view the above details and to review Your personal information. If You believe that any information We are holding about You is incorrect or incomplete, please email Us at Info@digitalmpay.in We will promptly correct any information found to be incorrect We may change this policy from time to time by updating this page. We will post a notice on Our home page that this Privacy Policy has changed. Unless stated otherwise, Our current Privacy Policy applies to all information that We have about You and Your account. This policy is effective from the date last updated.</string>
+    <string name="contact_us">Contact us</string>
+    <string name="_91_8383066031">0124112822</string>
+    <string name="phone_no">Contact Number</string>
+    <string name="email_address">Email Address</string>
+    <string name="adress">B135,sector 2, Noida</string>
+    <string name="adresss">Address</string>
+    <string name="email_id">Info@gocash.net.in</string>
+    <string name="about_us">About Us</string>
+    <string name="textdec">
+        Digital Fintech Services Pvt Ltd company is also registered in Ministry Of Corporate Affairs (MCA) Govt. Of India .
+        Digital Fintech Services Pvt Ltd established Since 2022 is to make digital payments so easy to safe and universally accepted that people never feel the need to carry cash or card again. We believe India is at cusp of a new mobile revolution, which will change the way we manage our money on the go ,we provide all the financial services and virtual account opening. We see ourselves facilitating this change through technology and dogged customer centricity\n Go Cash is a brand owned by Digital Fintech Services Mutual benefits Fintech Limited.
+        We provide micro loan like that member group loan , personal loan and Business loan . FD limit first we add member then we provide a loan after we give a  money in your account after 20 days . Maintenance your account balance  then you eligible  for loan  and offer provide by company and you  get  a Notification in app . We provide a loan  from Rs 1000 up to 2 lakh . Emi pay on time so that you do not to pay a penalty charge.
+        Credit Limit on behalf FD(Fixed Deposit) . FD(Fixed Deposit) 10 % get extra amount instant transfer in  your account. You can withdraw all amount from your account. Your Fd maturity after 1 years with 7.5 % Interest extra transfer  in your saving account. You can open a FD and RD instantly and if you need a amount you can take instantly in your saving account .
+        Go cash brand a group of SSKGMSRG Digital Fintech Service opc Private Limited  our Lending Partner .
+        ARG Mutual Benefit Limited :- Share 10 Rs. membership and loan provide
+        ARG Digital Seva Pvt Ltd :- Member Insurance and Digital Payment Loan Repayment and Card Issue .
+        Our Channel Partner
+        RazorPay Pvt Ltd. , Open Money , ZRO Company , VK Venture Pvt Ltd. , IndusInd Bank , IDFC Bank .
+        Non Maintenance Charge
+        If You Pay Rs 354  Maintenance charge  then you should not to pay any Maintenance charge yearly otherwise You have to maintain Rs 500 + GST deducted every month Rule of Banking Regulation.
+        Other Charges will deducted by bank.
+    </string>
+    <string name="belowlinse">
+        Go Cash Payment is a Brand owned by Digital Fintech Services OPC Pvt Ltd. (CIN-U72900UP2022OPC168465). It is licensed by the Ministry Of Corporate Affairs (MCA) Govt. Of India Since 2022
+    </string>
+    <string name="developer">developer</string>
+    <string name="name">Name</string>
+    <string name="scan"><![CDATA[Scan & Pay]]></string>
+    <string name="profile">My Profile</string>
+    <string name="newpin">Enter your PIN </string>
+    <string name="contentdescription">Access your account with your 4 -digit PIN </string>
+    <string name="changepin">Change Pin</string>
+    <string name="newdata">Enter Your Pin</string>
+    <string name="confirm_pin">Confirm Pin</string>
+    <string name="menu_homes">Home</string>
+    <string name="qrcode">My QR-Code</string>
+
+
+</resources>

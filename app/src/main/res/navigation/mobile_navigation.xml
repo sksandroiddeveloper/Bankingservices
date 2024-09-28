@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.digitalfintech.customer.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <activity
+        android:id="@+id/update_pin"
+        android:name="com.digitalfintech.customer.ChangeMpindigit"
+        tools:layout="@layout/activity_mpindigit"/>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.digitalfintech.customer.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.digitalfintech.customer.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <activity
+        android:id="@+id/about_us"
+        android:name="com.digitalfintech.customer.About_us"
+        tools:layout="@layout/activity_about_us"/>
+
+
+    <activity
+        android:id="@+id/privacy"
+        android:name="com.digitalfintech.customer.PrivacyPolicy"
+        tools:layout="@layout/activity_privacy_policy"/>
+    <activity
+        android:id="@+id/contact"
+        android:name="com.digitalfintech.customer.Contactus"
+        tools:layout="@layout/activity_contactus"/>
+
+
+    <activity
+        android:id="@+id/profile"
+        android:name="com.digitalfintech.customer.Profilephoto"
+        tools:layout="@layout/activity_profilephoto"/>
+    <activity
+        android:id="@+id/scanner"
+        android:name="com.digitalfintech.customer.Qrcoder.QrcodeGenerator"
+        tools:layout="@layout/activity_qrcode_generator"/>
+
+</navigation>
